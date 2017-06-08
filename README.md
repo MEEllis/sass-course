@@ -28,6 +28,19 @@ sass基于Ruby语言开发而成，因此安装sass前需要安装Ruby。
   gulp
  ```
  
+ 这里可能会报错
+ Sass注释中文报错问题
+ 解决方案：
+ 
+ 找到ruby的安装目录，里面也有sass模块，如这个路径：（根据你自己的安装路径来找）
+ 
+ C:\Ruby23-x64\lib\ruby\gems\2.3.0\gems\sass-3.4.23\lib\sass
+ 
+ 在这个文件里面engine.rb，添加一行代码（同方法1）
+ 
+ Encoding.default_external = Encoding.find('utf-8')
+ 放在所有的require XXXX 之后即可。
+ 
 ## 再续
  精灵图 ，以及 64base图片，后续提交
  
