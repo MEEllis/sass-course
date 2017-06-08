@@ -1,0 +1,5 @@
+@import "variables";
+
+@function r($px){//$px为需要转换的字号
+  @return $px / $baseFontSize * 1rem;
+}
