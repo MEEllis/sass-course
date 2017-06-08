@@ -23,7 +23,7 @@ sass基于Ruby语言开发而成，因此安装sass前需要安装Ruby。
    ```
      npm install
   ```
- 二步：(执行gulp默认的任务)
+ 第二步：(执行gulp默认的任务)
   ```
   gulp
  ```
