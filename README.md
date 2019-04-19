@@ -3,6 +3,7 @@
 sass基于Ruby语言开发而成，因此安装sass前需要安装Ruby。
 建议安装rubu的时候直接选择安装在c盘系统盘
 
+
  先安装 ruby , 再通过
  ```
  gem install sass
